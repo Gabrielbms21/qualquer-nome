@@ -131,7 +131,124 @@ fun main() {
       }else{
           println("o número $chocolate é maior que $sorvete")
       }
+       ---------------------------------------------------------------------------------------------------------------
+       =------------------------------------------------------------------------------------------------------------
+       -------------------------------------------------------------------------------------------
+       fun main() {
+    //
+    /*
+    var minecraft = 0
+    
+    if(minecraft > 0){
+         println("O $minecraft é  um numero positivo")
+    }else if(minecraft < 0){
+         println("O $minecraft é um numero negativo")
+    }else{
+        println("O $minecraft não é nem positivo e nem negativo ")
+    */ 
       
+    
+    
+    // Operadores Lógicos
+    // 
+    // são usados para comparar mais de um valor na mesma condição
+    // 
+    // && --> e (SHIFT + 7) ><
+    // || --> ou (SHIFT + A barrinha invertida  ao lado dele)(PIPELINE)
+    // 
+    // TABELA VERDADE
+    // e... --> para que o resultado seja verdadeiro, todas as condições  precisam ser
+    // verdadeiras
+    // 
+    // VV - V
+    // VF - F
+    // FV - F
+    // FF - F
+    // ou... --> para que o ressultado seja verdadeiro, pelo menos ma condição deve ser
+    // verdadeira 
+    // 
+    // VV - V
+    // VF - V
+    // FV - V
+    // FF - F
+    //
+    /*
+    var coracoes = 9
+    var vidas = 1
+    if(vidas <= 0 && coracoes <= 0){
+         println("Você vai para a tela de Game Over")
+    }else{
+         println("-----O jogo será reiniciado-----")
+
+    */
+    
+    //When - Quando...
+    //Quandoo um determinado valor for verdadeiro, uma determinada ação
+    //será executado
+    //
+    //Estrutura do When
+    //
+    //when(var a ser comporada)
+    //valor -->(ação)
+    //valor -->(ação)
+    //valor -->(ação)
+    //else --> (ação)
+    // }
+    /*
+    var mes = 11
+    when(mes){
+        1 -> {println("Janeiro")}
+        2 -> {println("Fevereiro")}
+        3 -> {println("Março")}
+        4 -> {println("Abril")}
+        5 -> {println("Maio")}
+        6 -> {println("Junho")}
+        7 -> {println("Julho")}
+        8 -> {println("Agosto")}
+        9 -> {println("Setembro")}
+        10 ->{println("Outubro")}
+        11 ->{println("Novembro")}
+        12 ->{println("Dezembro")}
+       else ->{println("Mês inválido")}
+    */
+    // Laços de repetição
+    // 
+    // While - Enquanto
+    // do..While - faça... enquanto
+    // for - para
+    // repeat - repita
+    // 
+    //while -->enquanto uma condição verdadeira, uma determinada
+    //ação é executada, até que não seja mais verdadeira
+    //
+    var bolo = 500
+    
+    while(bolo <= 520){
+        println(bolo)
+        bolo++
+    }
+    
+    //do.. while --> ele vai executar uma determinada ação
+    //enquanto uma condição for verdadeira
+    println("")
+    do{
+        println(bolo)
+        bolo++
+    }while(bolo > 520)
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
       
       
       
