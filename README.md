@@ -238,7 +238,53 @@ fun main() {
 
 }
     
+------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 
+fun main() {
+    
+/*
+ //
+ //exercício <3
+ //
+ //Exiba a porcentagem da bateria descarregando a cada linha no console
+ //Quando a bateria chegar a 15%, deve ser exibida a porcentagem e também
+ //O aviso de bateria descarregada,
+ //Quando a bateria chegar a 0%, deve ser exibida a porcentagem e tambem
+ //O aviso de celular desligando usando WHILE ou do..WHILE
+ //
+ //
+
+ var bateria = 100
+
+ while(bateria >= 0){
+     println("${bateria}%")
+  
+    when(bateria){
+        15 -> {println("Celular Descarregando, faça algo!")}
+        0 -> {println("Celular Desligando, dando tchauzinho ")}
+    }
+      bateria-- 
+ }
+ */
+  
+ 
+  // for - para...
+    
+    for(churrasco in 0..10){
+        println(churrasco)
+    }
+
+
+
+ // exercícios - Exibir uma tabuada de um escolhido(não pode ser a do 1,e do 2) utilizando
+ // o laço for 5
+ 
+ //☻
+ 
+
+}
 
 
 
