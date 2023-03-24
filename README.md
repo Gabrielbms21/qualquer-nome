@@ -285,7 +285,42 @@ fun main() {
  
 
 }
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 
+fun main() {
+ /*   
+   for(i in 1..10){
+       println(i*50)
+   }
+
+*/
+    // repeat -> repita
+    //  
+    // repetir uma determinada sequencia de ações, em determinada quantidade de vezes
+    // 
+    // repeat(vezes){
+    // ação
+    // }  
+    /*
+    repeat(20){
+        println("Guts muito foda ☻")
+    }
+    */
+    // exercício = exiba os números de 20 a 0 (nesta ordem) usando o laço repeat
+    var Guts = 20
+    repeat(21){
+        println(Guts)
+        Guts--
+    }
+
+
+
+
+
+
+}
 
 
 
