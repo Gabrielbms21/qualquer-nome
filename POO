@@ -258,6 +258,89 @@ class Contabanco(var saldo:Double, var numeroConta: Long, var senhaCorreta: Int)
   }
 */
   
+------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+
+fun main() {
+    
+
+var usuario = Contabanco(-100.0, 14516789938878786, 5018)
+    usuario.consultarSaldo(5018)
+    usuario.deposito(5018, 2.0)
+    usuario.consultarSaldo(5018)
+    usuario.saque(5018, 20.0)
+
+}
+
+class Contabanco(var saldo:Double, var numeroConta: Long, var senhaCorreta: Int){
+    
+    fun consultarSaldo(senha: Int){
+    
+        if(senha == senhaCorreta){
+          println("Saldo: R$$saldo") 
+        }else{
+            println("senha Incorreta")
+        }
+    
+    }
+    
+    fun deposito(senha: Int, valor: Double){
+         if(senha == senhaCorreta){
+             if(valor <= 0){
+                 println("Depósito de R$$valor impossível de ser realizado")
+             }else{
+             saldo += valor
+             println("Depósito de R$$valor realizado com sucesso")
+             }
+             
+        }else{
+            println("senha Incorreta")
+        }
+     
+    }
+
+    
+    
+    //Exercício -> faça  o método de sacar dinheiro na conta do banco
+       
+       fun saque(senha: Int, valor: Double){
+         if(senha == senhaCorreta){
+             if(valor <= 0){
+                 println("saque de R$$valor impossível de ser realizado")
+             }else if(valor > saldo){
+                 println("saque de R$$valor realizado")
+             }else{   
+             saldo += valor
+             println("saque de R$$valor realizado com sucesso")
+             }
+             
+        }else{
+            println("senha Incorreta")
+        }
+     
+    }
+       
+       
+   }
+      
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
